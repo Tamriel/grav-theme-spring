@@ -1,0 +1,13 @@
+name: Spring
+version: 0.1.0
+description: cleaner antimatter
+icon: rebel
+author:
+  name: Jan Korte
+  email: j.korte@me.com
+homepage: https://github.com/jan-korte/grav-theme-spring
+demo: http://demo.yoursite.com
+keywords: grav, theme, etc
+bugs: https://github.com/jan-korte/grav-theme-spring/issues
+readme: https://github.com/jan-korte/grav-theme-spring/blob/develop/README.md
+license: MIT
