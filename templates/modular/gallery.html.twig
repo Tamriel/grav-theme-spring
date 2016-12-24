@@ -1,0 +1,3 @@
+{% for image in page.media.images %}
+    {{ image.lightbox(1024,768).cropResize(200,200).html(image.meta.title) }}
+{% endfor %}
