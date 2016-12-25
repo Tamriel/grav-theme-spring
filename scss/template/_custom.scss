@@ -1,7 +1,11 @@
 html {
-    overflow-y: scroll; 
+  overflow-y: scroll;
 }
 
 .grav-lightslider {
-    max-width: 45rem;
+  max-width: 45rem;
+}
+
+#sb-site, .sb-site-container {
+  background-color: transparent;
 }
