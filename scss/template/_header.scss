@@ -4,7 +4,7 @@ $background-color: rgba(249, 244, 206, 0.9);
 
 #header {
 	@extend .default-animation;
-	@extend .padding-horiz;
+	@extend .padding-horiz-header;
 	position: fixed;
 	z-index: 10;
 	width: 100%;
