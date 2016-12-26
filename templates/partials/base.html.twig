@@ -1,6 +1,6 @@
 {% set theme_config = attribute(config.themes, config.system.pages.theme) %}
 <!DOCTYPE html>
-<html lang="{{ grav.language.getLanguage ?: 'en' }}">
+<html lang="{{ grav.language.getLanguage ?: 'en' }}" xmlns:http="http://www.w3.org/1999/xhtml">
 <head>
 {% block head %}
     <meta charset="utf-8" />
@@ -38,7 +38,7 @@
 
 {% endblock head %}
 </head>
-<body id="top" class="{{ page.header.body_classes }}" background="/images/background.jpg" style="background-position: center;">
+<body id="top" class="{{ page.header.body_classes }}">
     <div id="sb-site">
         {% block header %}
         <header id="header">

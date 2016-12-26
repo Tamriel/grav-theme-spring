@@ -9,3 +9,8 @@ html {
 #sb-site, .sb-site-container {
   background-color: transparent !important; // important to override slidebars.min.css
 }
+
+body {
+  background-image: url("/images/background.jpg");
+  background-position: center;
+}
