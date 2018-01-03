@@ -1,11 +1,5 @@
-# Spring Theme
+Put this folder in /users/themes
 
-The **Spring** Theme is for [Grav CMS](http://github.com/getgrav/grav).
-
-## Description
-
-cleaner antimatter
-
-
-## Usage
+Before usage the css must be generated.
+In /users/themes/spring run:
 `scss --load-path ../antimatter/scss --watch scss:css-compiled`
