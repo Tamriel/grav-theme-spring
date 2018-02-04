@@ -44,3 +44,9 @@ body {
 .langswitcher .active {
     font-weight: bold;
 }
+
+@media (max-width: 1100px) { // adjust this width according to your total menu items width
+  .langswitcher {
+    display: none;
+  }
+}

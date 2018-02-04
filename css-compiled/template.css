@@ -800,6 +800,9 @@ body {
 .langswitcher .active {
   font-weight: bold; }
 
+@media (max-width: 1100px) {
+  .langswitcher {
+    display: none; } }
 .modular.header-image #header {
   background-color: rgba(255, 255, 255, 0);
   box-shadow: none; }
