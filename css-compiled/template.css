@@ -776,6 +776,30 @@ body {
   background-image: url("/images/background.jpg");
   background-position: center; }
 
+.langswitcher {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-left: 3rem !important;
+  display: inline-block;
+  float: right; }
+
+.langswitcher li {
+  display: inline-block;
+  margin-left: 0.2rem;
+  line-height: 1rem;
+  color: blue; }
+
+.langswitcher a {
+  color: #7e6561; }
+
+.langswitcher .active {
+  font-weight: bold; }
+
 .modular.header-image #header {
   background-color: rgba(255, 255, 255, 0);
   box-shadow: none; }
