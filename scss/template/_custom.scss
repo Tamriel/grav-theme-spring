@@ -50,3 +50,89 @@ body {
     display: none;
   }
 }
+
+body {
+  font-size: 17px;
+  line-height: 1.4;
+}
+
+.grav-lightslider {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.lSAction > a {
+    z-index: auto!important;
+ }
+ .lSSlideOuter .lSPager.lSpg > li a {
+    z-index: auto!important;
+}
+
+// fix 'tinymce makes text too width'
+.container {
+    width: auto;
+}
+
+.blog-header {
+    padding-bottom: 0.3rem;
+}
+
+ul, ol {
+    margin-top: 0.3rem;
+    margin-bottom: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+  margin-top: 1.8rem;
+  margin-bottom: 0.0rem;
+}
+
+table, th, td {
+    padding: 0.2rem;
+    margin-top: 0.5rem;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: auto;
+}
+
+.blog-header {
+    padding-top: 0;
+}
+
+#sidebar {
+    padding-left: 6rem;
+}
+
+// https://stackoverflow.com/questions/4086107/fixed-page-header-overlaps-in-page-anchors
+:target:before {
+  content:"";
+  display:block;
+  height:60px; /* fixed header height*/
+  margin:-60px 0 0; /* negative fixed header height */
+}
+
+textarea {
+    height: 15em;
+}
+
+// hide red required stars
+.form-field .required {
+    visibility: hidden;
+}
+
+.navigation > li a {
+  color: #4c3e3b;
+}
+#footer > p a {
+  color: #4c3e3b;
+}
+
+// tinymce adds a height attribute, which causes wrong image proportions on small screens
+// https://github.com/tinymce/tinymce/issues/2225
+img { height: auto; } 
